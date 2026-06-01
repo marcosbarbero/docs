@@ -1,0 +1,31 @@
+title: marcosbarbero docs
+description: Documentation for the apps I ship as an independent developer.
+author: Marcos Barbero
+
+# GitHub Pages serves at https://<user>.github.io/<repo>/, so the baseurl is the repo name.
+# Important: every internal link in a Markdown file should use `{{ site.baseurl }}/path` or a
+# root-relative `/docs/path` — bare `/path` resolves to the wrong place on Pages.
+baseurl: "/docs"
+url: "https://marcosbarbero.github.io"
+
+# Stock GitHub Pages theme. Clean, dark/light aware, zero JS dependencies. Swap later if a
+# multi-app landing page warrants more chrome.
+theme: jekyll-theme-cayman
+
+# Permalink convention: each Markdown file resolves at /<dirname>/<basename>/ — no `.html`
+# in the URL. Keeps App Store Connect's Privacy Policy URL / Support URL paste targets
+# stable across content edits.
+permalink: /:path/
+
+# Plugins enabled by GitHub Pages by default; redirect-from gives us per-page short URLs
+# if we ever need them.
+plugins:
+  - jekyll-redirect-from
+
+# Don't ship build artefacts or the README.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
