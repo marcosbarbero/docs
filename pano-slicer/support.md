@@ -27,6 +27,10 @@ PanoSlice writes tiles directly to your iPhone's camera roll. Open the Photos ap
 
 If nothing appears in Photos after an export, check **Settings → PanoSlice → Photos**. The permission needs to be set to either **Add Photos Only** or **All Photos**. "Selected Photos" works for *reading* but blocks *writing* — that's iOS's design.
 
+### How do I jump to Photos or Instagram after exporting?
+
+The success overlay gives you **Photos** and **Instagram** shortcut pills below the "Saved to your camera roll" headline. Tap either to launch the destination app directly — Photos lands you on the camera roll so you can confirm the tiles; Instagram lands you on its library picker so you can start a new post right away. The Instagram shortcut only appears if Instagram is installed on the device.
+
 ### Why is there a "PanoSlice" watermark on my tiles?
 
 The Free tier writes a small `PanoSlice` chip in the bottom-right of each tile. Premium removes it on every export. See the **Subscription** section of the in-app **Settings** sheet to upgrade.
