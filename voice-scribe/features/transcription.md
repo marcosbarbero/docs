@@ -31,8 +31,8 @@ Every step — capture and transcription — happens on your device. Nothing is 
 
 ## Free vs Premium
 
-- **Free:** recording, automatic paragraph formatting, on-device transcription, and plain-text copy.
-- **Scribe Pass:** continuous multi-hour recording sessions. (Free sessions are capped; Scribe Pass removes the cap.)
+- **Free:** recording (up to 2 minutes per session), automatic paragraph formatting, on-device transcription, and plain-text copy.
+- **Scribe Pass:** unlimited continuous recording. (Free sessions are capped at 2 minutes; Scribe Pass removes the cap.)
 
 ## Privacy
 
@@ -44,4 +44,4 @@ Everything stays on device. VoiceScribe does not collect, transmit, or persist a
 
 - Transcription accuracy and the supported languages are those of Apple's on-device speech recognition.
 - On-device transcription requires a device and language that support it; where it isn't available, recording still works but live text does not.
-- Free recording sessions are time-limited; continuous multi-hour capture requires Scribe Pass.
+- Free recording sessions are capped at 2 minutes; longer continuous capture requires Scribe Pass.

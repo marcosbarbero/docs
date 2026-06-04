@@ -14,7 +14,7 @@ Scribe Pass is VoiceScribe's optional subscription. The app is fully usable for 
 
 ## When to use it
 
-- You record meetings longer than an hour.
+- You record anything longer than a couple of minutes.
 - You want AI summaries, key highlights, and action items.
 - You need to translate transcripts or export them as Markdown / text.
 
@@ -27,7 +27,7 @@ Scribe Pass is VoiceScribe's optional subscription. The app is fully usable for 
 
 ## Free vs Premium
 
-- **Free:** recording up to **1 hour** per session, on-device transcription, automatic paragraph formatting, plain-text copy, browse/search the vault, and on-device entity tags.
+- **Free:** recording up to **2 minutes** per session, on-device transcription, automatic paragraph formatting, plain-text copy, browse/search the vault, and on-device entity tags.
 - **Scribe Pass:** **unlimited** continuous recording, AI **Smart Summary / Key Highlights / Action Items**, **transcript translation**, and **Markdown / text export**.
 
 ## Privacy
