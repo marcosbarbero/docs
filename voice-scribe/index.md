@@ -8,25 +8,24 @@ permalink: /voice-scribe/
 
 Privacy-first, on-device audio transcription and AI insight for iPhone. Record meetings, interviews, and memos; get a clean transcript, a smart summary, key highlights, and action items — all computed on your device. Your audio never leaves your phone.\*
 
-## Links
+## Features
 
-- [**Privacy Policy**]({{ site.baseurl }}/voice-scribe/privacy-policy/) — registered in App Store Connect as VoiceScribe's Privacy Policy URL.
-- [**Support**]({{ site.baseurl }}/voice-scribe/support/) — how to reach me with a bug, feature request, or refund question. Registered in App Store Connect as the Support URL.
+- [**Air-Gapped Transcription**]({{ site.baseurl }}/voice-scribe/features/transcription/) — record and watch a live transcript appear, entirely on-device, even in airplane mode.
+- [**Secure Memo Vault**]({{ site.baseurl }}/voice-scribe/features/vault/) — every recording saved locally; search, tag, rename, delete, and export.
+- [**Local AI Insight Engine**]({{ site.baseurl }}/voice-scribe/features/insights/) — on-device summaries, key highlights, and action items from a transcript.
+- [**Scribe Pass**]({{ site.baseurl }}/voice-scribe/features/scribe-pass/) — the optional subscription: unlimited recording, AI insights, translation, and export.
+- [**iCloud Sync**]({{ site.baseurl }}/voice-scribe/features/icloud-sync/) — opt-in, off by default: your library across your own devices via your private iCloud.
 
-## How it works
+## Why VoiceScribe
 
-VoiceScribe runs entirely on your iPhone. There are no servers, no analytics SDKs, and no third-party services.
-
-- **Record & transcribe** — capture audio and get a live transcript via Apple's on-device speech recognition (`SFSpeechRecognizer` with `requiresOnDeviceRecognition`). It works in airplane mode.
-- **Insights** — on-device Apple Intelligence turns a transcript into a smart summary, key highlights, and action items. People, places, and dates are tagged with Apple's on-device language model.
-- **Vault** — every recording is saved locally with its transcript and details; search, rename, export, or delete any memo. Deleting removes the audio too.
+VoiceScribe runs entirely on your iPhone — no servers, no analytics SDKs, no third-party services. Capture goes through Apple's on-device speech recognition (`SFSpeechRecognizer` with `requiresOnDeviceRecognition`); insights are generated on-device by Apple Intelligence. The app works in airplane mode, and there's no account to create.
 
 \* By default everything stays on your phone. **iCloud Sync is off by default**; if you turn it on, your recordings, transcripts, and insights sync to your *own* private iCloud so they follow you across your devices — never to our servers (there are none). See the [Privacy Policy]({{ site.baseurl }}/voice-scribe/privacy-policy/).
 
-## Free vs Scribe Pass
+## Legal & support
 
-- **Free:** record and transcribe, browse/search the vault, rename and delete, on-device entity tags, plain-text copy, and iCloud Sync.
-- **Scribe Pass** (optional subscription): unlimited continuous recording, on-device AI insights, transcript translation, and Markdown / text export. Check the App Store for current pricing.
+- [**Privacy Policy**]({{ site.baseurl }}/voice-scribe/privacy-policy/) — registered in App Store Connect as VoiceScribe's Privacy Policy URL.
+- [**Support**]({{ site.baseurl }}/voice-scribe/support/) — how to reach me with a bug, feature request, or refund question. Registered as the Support URL.
 
 ## Contact
 
