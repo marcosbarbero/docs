@@ -44,5 +44,6 @@ Everything stays on device. VoiceScribe does not collect, transmit, or persist a
 ## Known limits
 
 - Entity recognition (people, places, dates) is best-effort and uses Apple's on-device language models; it won't catch everything.
+- New recordings are named automatically from the start of what was said (a raw-audio recording falls back to a date-stamped name); you can rename any of them.
 - Search matches the title and transcript text; a recording with no transcript is found by its title only.
 - By default there is no cloud backup — memos live on the device they were recorded on. If you turn on **iCloud Sync** (off by default), your memos follow you across your own devices via your private iCloud; see the [iCloud Sync]({{ site.baseurl }}/voice-scribe/features/icloud-sync/) page.
