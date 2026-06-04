@@ -26,7 +26,7 @@ Specifically, VoiceScribe does not collect:
 - Analytics on which buttons you tap, which features you use, or how long you spend in the app.
 - Crash reports (VoiceScribe embeds no third-party crash-reporting SDK; Apple's first-party crash reporting can be enabled or disabled by you in Settings → Privacy & Security → Analytics & Improvements).
 
-Your recordings, their transcripts, and any AI insights are **your content**. They are created and stored on your device and are not transmitted to the developer under any circumstances.
+Your recordings, their transcripts, any AI insights, and any tasks are **your content**. They are created and stored on your device and are not transmitted to the developer under any circumstances.
 
 ## 2. Access to your data
 
@@ -35,20 +35,26 @@ VoiceScribe asks for two iOS permissions, both only when you start recording:
 - **Microphone.** To capture the audio you record. Audio is written to the app's private storage on your device.
 - **Speech Recognition.** To transcribe your recordings. Transcription runs **on-device** (`SFSpeechRecognizer` configured with `requiresOnDeviceRecognition`); the audio is not sent to Apple's servers for transcription, and the app works in airplane mode.
 
-Both permissions are revocable at any time via iOS Settings → VoiceScribe. The summaries, highlights, and action items ("Insights") are generated on-device by Apple Intelligence (Foundation Models); entity tags (people, places, dates) use Apple's on-device natural-language framework. Neither requires a permission prompt and neither sends your content off the device.
+Both permissions are revocable at any time via iOS Settings → VoiceScribe. The summaries, highlights, and action items ("Insights") are generated on-device by Apple Intelligence (Foundation Models); entity tags (people, places, organizations) use Apple's on-device natural-language framework. Neither requires a permission prompt and neither sends your content off the device.
+
+### Recording consent
+
+Before a recording starts, VoiceScribe asks you to **confirm that everyone present has been informed and consents** to being recorded. Recording does not begin until you confirm, and the time you confirm is stored on-device alongside that recording as your own record (see §3). VoiceScribe neither verifies nor transmits this confirmation — it is a local affirmation to support your own compliance, and obtaining lawful consent where it is required remains your responsibility. It is not legal advice.
 
 ## 3. On-device storage
 
 VoiceScribe stores the following on your device:
 
 - **Recordings, transcripts, and insights**, in the app's local database and sandbox (SwiftData + the app container). They remain until you delete the memo or uninstall the app. Deleting a recording removes its audio as well.
-- **Your settings** (such as the iCloud Sync on/off preference and your export-format choice), in `UserDefaults` within the app's private container.
+- **Tasks**, extracted on-device from your insights' action items (plus any you add yourself), in the same local database and linked to their recording.
+- **A recording-consent confirmation timestamp** for each recording (see §2), stored alongside it.
+- **Your settings** (such as the iCloud Sync on/off preference, the after-a-recording behaviour, and your export-format choice), in `UserDefaults` within the app's private container.
 
 VoiceScribe writes nothing outside its own sandbox, and — with iCloud Sync off (the default) — nothing it stores ever leaves your device.
 
 ## 4. Optional iCloud Sync
 
-iCloud Sync is **off by default.** When you turn it on (Settings → iCloud Sync), your recordings, transcripts, and insights are synced across your own devices through **your private iCloud account**, using Apple's iCloud / CloudKit private database.
+iCloud Sync is **off by default.** When you turn it on (Settings → iCloud Sync), your recordings, transcripts, insights, and tasks are synced across your own devices through **your private iCloud account**, using Apple's iCloud / CloudKit private database.
 
 - This data goes only to **your own iCloud private database**. It is **not** sent to any VoiceScribe server (there are none), is **not** accessible to the developer, and is **not** shared with anyone.
 - There is **no account to create** — iCloud Sync uses the iCloud account already signed in on your device. VoiceScribe has no login, no sign-up, and no user accounts of any kind.

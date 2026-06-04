@@ -10,7 +10,7 @@ permalink: /voice-scribe/features/insights/
 
 ## What it does
 
-The Insights tab analyzes a transcribed recording — your most recent by default, or any other you pick from the selector — and produces three things: a **Smart Summary** (a couple of sentences capturing the gist), **Key Highlights** (the decisions and takeaways), and **Action Items** (tasks, with the responsible person when one was named). You can tick off action items as you complete them, and export the whole set as a Markdown file with an integrity checksum.
+The Insights tab analyzes a transcribed recording — your most recent by default, or any other you pick from the selector — and produces three things: a **Smart Summary** (a couple of sentences capturing the gist), **Key Highlights** (the decisions and takeaways), and **Action Items** (tasks, with the responsible person when one was named). Those action items become an interactive **Task Matrix** — check them off, add your own, and reach the same list from the recording's detail view. Insights are **saved** with the recording, so they stay the same each time you open them; a **Regenerate** button re-runs the AI for a fresh pass. You can export the whole set as a Markdown file with an integrity checksum.
 
 The AI runs on your device. Your transcript is never sent anywhere.
 
@@ -22,9 +22,9 @@ The AI runs on your device. Your transcript is never sent anywhere.
 
 ## How it works
 
-1. Record and transcribe something on the **Engine** tab (it's saved to your Vault).
-2. Open the **Insights** tab. It generates insights for your newest transcribed recording, on-device. To analyze a different one, tap the recording selector at the top and choose it.
-3. Read the **Smart Summary**, scan the **Key Highlights**, and work through the **Action Items** — tap one to mark it complete.
+1. Record and transcribe something on the **Record** tab (it's saved to your Vault).
+2. Open the **Insights** tab. The first time, it generates insights for your newest transcribed recording on-device and **saves** them; after that it loads the saved result. To analyze a different one, tap the recording selector at the top.
+3. Read the **Smart Summary**, scan the **Key Highlights**, and work the **Task Matrix** — tap a task to complete it, or add your own. Tap **Regenerate** for a fresh AI pass.
 4. Tap **Export Markdown Document** to save and share the insights as a `.md` file. The MD5 checksum shown lets you verify the file hasn't been altered.
 
 ## Free vs Premium
@@ -42,4 +42,4 @@ Everything stays on device. VoiceScribe does not collect, transmit, or persist a
 
 - Requires a device, OS, and region that support Apple's on-device intelligence; where it isn't available, the tab says so instead of generating.
 - Summaries, highlights, and action items are AI-generated and may miss or misstate details — treat them as a helpful draft, not a record of fact.
-- Insights default to your most recent transcribed recording; use the selector to analyze a different one. Each switch regenerates on-device.
+- Insights default to your most recent transcribed recording; use the selector to analyze a different one. Results are **saved and reloaded** — tap **Regenerate** to re-run the AI.
