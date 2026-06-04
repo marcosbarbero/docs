@@ -26,7 +26,7 @@ Every step — capture and transcription — happens on your device. Nothing is 
 1. Open the **Engine** tab.
 2. Tap the microphone button. The first time, VoiceScribe asks for microphone and speech-recognition permission — grant both to begin.
 3. Speak. The waveform responds to your voice and the transcript appears live as the words are recognized.
-4. Tap the button again to stop.
+4. Tap **Pause** to pause and resume capture without ending the session; tap **Stop** when you're done.
 5. Tap **Copy transcript** to put the full text on your clipboard.
 
 ## Free vs Premium
