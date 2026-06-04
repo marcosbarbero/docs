@@ -26,10 +26,11 @@ Nothing is uploaded. The vault, the search, and the tagging all run on your devi
 1. Open the **Vault** tab. Your recordings appear under **Recent Captures**, newest first.
 2. Each card shows the title, a **Transcribed** or **Raw Audio** badge, and the duration, size, and date. Recognized people, places, and dates appear as small tags.
 3. Type in **Search memos…** to filter by title or by anything said in the transcript.
-4. Tap the **⋯** button on a memo to **Rename** or **Delete** it, or to **Export as Markdown** / **Export as Plain Text** and share it.
-5. Renaming opens a small dialog with the current title; type a new name and tap **Save**. A blank name is ignored. The new name persists across relaunch (and syncs if iCloud Sync is on).
-6. Deleting asks you to confirm, then permanently removes the recording **and its audio** — there's no undo. If iCloud Sync is on, the deletion follows to your other devices.
-7. Tap the microphone on the hero to jump straight to the Engine and start a new recording.
+4. **Tap a recording** to open its detail: play the audio back (play / pause with a progress bar), read the full transcript, and reach the same actions.
+5. Or tap the **⋯** button on a memo (in the list or the detail) to **Rename** or **Delete** it, or to **Export as Markdown** / **Export as Plain Text** and share it.
+6. Renaming opens a small dialog with the current title; type a new name and tap **Save**. A blank name is ignored. The new name persists across relaunch (and syncs if iCloud Sync is on).
+7. Deleting asks you to confirm, then permanently removes the recording **and its audio** — there's no undo. If iCloud Sync is on, the deletion follows to your other devices.
+8. Tap the microphone on the hero to jump straight to the Engine and start a new recording.
 
 ## Free vs Premium
 
