@@ -14,6 +14,10 @@ Documentation for the apps I ship as an independent developer.
 
 iOS panorama + profile-grid slicer. Slice a wide photo into an Instagram carousel or a 3-column profile mosaic, fully on-device. [Read the docs →]({{ site.baseurl }}/pano-slicer/)
 
+### [VoiceScribe]({{ site.baseurl }}/voice-scribe/)
+
+Privacy-first, on-device audio transcription and AI insight for iPhone. Record, transcribe, and summarise — your audio never leaves your phone. [Read the docs →]({{ site.baseurl }}/voice-scribe/)
+
 ---
 
 ## Contact
