@@ -8,8 +8,11 @@ permalink: /pano-slicer/
 
 iOS panorama + profile-grid slicer. Slice one wide photo into an Instagram carousel or a 3-column profile mosaic, fully on-device.
 
+[**Download on the App Store**](https://apps.apple.com/app/id6775278708)
+
 ## Links
 
+- [**Download on the App Store**](https://apps.apple.com/app/id6775278708) — PanoSlice on the Apple App Store.
 - [**Privacy Policy**]({{ site.baseurl }}/pano-slicer/privacy-policy/) — registered in App Store Connect as PanoSlice's Privacy Policy URL.
 - [**Support**]({{ site.baseurl }}/pano-slicer/support/) — how to reach me with a bug, feature request, or refund question. Registered in App Store Connect as the Support URL.
 
