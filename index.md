@@ -18,6 +18,10 @@ iOS panorama + profile-grid slicer. Slice a wide photo into an Instagram carouse
 
 Privacy-first, on-device audio transcription and AI insight for iPhone. Record, transcribe, and summarise — your audio never leaves your phone. [Read the docs →]({{ site.baseurl }}/voice-scribe/)
 
+### [KineticCut]({{ site.baseurl }}/kinetic-cut/)
+
+On-device B-roll triage for short-form creators. Finds the moments worth using — motion, sharpness, and gaze — then trims the slices you pick straight to your timeline. No uploads. [Read the docs →]({{ site.baseurl }}/kinetic-cut/)
+
 ---
 
 ## Contact
