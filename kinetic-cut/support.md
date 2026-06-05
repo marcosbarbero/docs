@@ -53,4 +53,4 @@ Most emails get a reply within 48 hours on weekdays (Europe / Berlin time). Week
 
 ## Privacy
 
-This page exists purely to reach me. See the [Privacy Policy]({% raw %}{{ site.baseurl }}{% endraw %}/kinetic-cut/privacy-policy/) for the full posture.
+This page exists purely to reach me. See the [Privacy Policy]({{ site.baseurl }}/kinetic-cut/privacy-policy/) for the full posture.

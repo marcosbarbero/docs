@@ -10,10 +10,10 @@ KineticCut turns hours of raw footage into short-form gold — on your device. H
 
 ## Features
 
-- [**Scoped Media Intake**]({% raw %}{{ site.baseurl }}{% endraw %}/kinetic-cut/features/scoped-media-intake/) — hand it just the videos you choose, nothing else from your library.
-- [**Kinetic Motion & Aesthetic Analysis**]({% raw %}{{ site.baseurl }}{% endraw %}/kinetic-cut/features/kinetic-analysis/) — on-device motion, aesthetic, and gaze detection.
-- [**3-Second Triage & Export**]({% raw %}{{ site.baseurl }}{% endraw %}/kinetic-cut/features/triage-and-export/) — pick the slices you want and trim them to your timeline, non-destructively.
-- [**Pro Creator Pass**]({% raw %}{{ site.baseurl }}{% endraw %}/kinetic-cut/features/pro-creator-pass/) — unlimited batches, advanced presets, and batch export.
+- [**Scoped Media Intake**]({{ site.baseurl }}/kinetic-cut/features/scoped-media-intake/) — hand it just the videos you choose, nothing else from your library.
+- [**Kinetic Motion & Aesthetic Analysis**]({{ site.baseurl }}/kinetic-cut/features/kinetic-analysis/) — on-device motion, aesthetic, and gaze detection.
+- [**3-Second Triage & Export**]({{ site.baseurl }}/kinetic-cut/features/triage-and-export/) — pick the slices you want and trim them to your timeline, non-destructively.
+- [**Pro Creator Pass**]({{ site.baseurl }}/kinetic-cut/features/pro-creator-pass/) — unlimited batches, advanced presets, and batch export.
 
 ## Why KineticCut
 
@@ -24,8 +24,8 @@ KineticCut turns hours of raw footage into short-form gold — on your device. H
 
 ## Legal & support
 
-- [**Privacy Policy**]({% raw %}{{ site.baseurl }}{% endraw %}/kinetic-cut/privacy-policy/) — registered in App Store Connect as the Privacy Policy URL.
-- [**Support**]({% raw %}{{ site.baseurl }}{% endraw %}/kinetic-cut/support/) — registered as the Support URL.
+- [**Privacy Policy**]({{ site.baseurl }}/kinetic-cut/privacy-policy/) — registered in App Store Connect as the Privacy Policy URL.
+- [**Support**]({{ site.baseurl }}/kinetic-cut/support/) — registered as the Support URL.
 
 ## Contact
 
