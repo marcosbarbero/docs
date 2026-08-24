@@ -24,7 +24,7 @@ On-device B-roll triage for short-form creators. Finds the moments worth using �
 
 ### The DotMatrix series
 
-Four retro handheld games on one shared engine — an LCD dot-matrix panel, fifty
+Five retro handheld games on one shared engine — an LCD dot-matrix panel, fifty
 hand-tuned levels each, nine languages, and a one-time unlock that removes every
 ad and plays offline. Never a subscription.
 
@@ -32,6 +32,7 @@ ad and plays offline. Never a subscription.
 - [**Dot Matrix Bricks**]({{ site.baseurl }}/dot-matrix-bricks/) — deflect the ball, clear the wall.
 - [**Dot Matrix Dodger**]({{ site.baseurl }}/dot-matrix-dodger/) — cross the traffic, one step at a time.
 - [**Dot Matrix Picture**]({{ site.baseurl }}/dot-matrix-picture/) — fill the grid from its numbers and a picture appears.
+- [**Dot Matrix Containment**]({{ site.baseurl }}/dot-matrix-containment/) — wall in a spreading front before it reaches the edge.
 
 ---
 
