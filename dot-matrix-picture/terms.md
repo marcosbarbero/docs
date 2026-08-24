@@ -46,7 +46,7 @@ The game keeps your scores and settings on your device and sends them nowhere. S
 
 ## No warranty
 
-The app is provided as is. It is a road-crossing game made by one person; it is not fit for any particular purpose beyond being a road-crossing game, and nothing here should be read as promising otherwise.
+The app is provided as is. It is a nonogram puzzler made by one person; it is not fit for any particular purpose beyond being a nonogram puzzler, and nothing here should be read as promising otherwise.
 
 ## Contact
 
